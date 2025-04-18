@@ -29,4 +29,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          platforms: linux/amd64
           tags: ${{ secrets.DOCKER_USERNAME }}/ai-service:latest
